@@ -1,0 +1,20 @@
+/*****************************************************************************
+Full Name  : Matthew Hyland
+Student ID#: 035286046
+Email      : mhyland@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I have done all the wrting of this reflection by myself.
+*****************************************************************************/
+
+Workshop 4
+***********
+
+Constructors seemed to be the what I leared about most from this workshop. They create new objects by setting values for them as they are created, usually to a safe empty state. In part two we only needed the one, but we also learned from part 1 that you can overload them to take as many arguments as you need them to. On the flip side is the destructor, which gets rid of the new object at the end of its life cycle, and sets its values to a safe empty state.
+
+The second technique I learned about was returning the target of the object using *this. For example in the board() function, I can create a new TourTicket object, get input and set it in my passenger list, and I can then even return the new object and its values. These new things we have learned have made it easier to move data around in chunks, as well as move their member functions with them.
+
+And that leads to my last new point, which is being able to call member functions using class objects. Again, in board(), I was able to call the issue function by invoking it with my passenger list object, and even give it each individual object in its array to assign the name and ticket number to 
+(m_passengerList[i - 1].issue(name);). 
+It took me a while to understand this, and I kept wondering why whenever I tried to use passenger list to access its name attribute, I was getting function options instead. But once I did, I realized how easy it was to set all the names by simply calling the function with the array index I wanted, and the name.
