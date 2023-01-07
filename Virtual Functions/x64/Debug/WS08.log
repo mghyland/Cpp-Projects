@@ -1,0 +1,13 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (W8.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  LblShape.cpp
+  Line.cpp
+C:\Users\hylan\OneDrive\Documents\OOP244\OOP244-Works\W8\Line.cpp(35,11): warning C4101: 'tempLength': unreferenced local variable
+  main.cpp
+  Rectangle.cpp
+  Shape.cpp
+  Generating Code...
+LblShape.obj : error LNK2019: unresolved external symbol "public: char * __cdecl sdds::Utils::alcpy(char const *)" (?alcpy@Utils@sdds@@QEAAPEADPEBD@Z) referenced in function "public: __cdecl sdds::LblShape::LblShape(char const *)" (??0LblShape@sdds@@QEAA@PEBD@Z)
+LblShape.obj : error LNK2001: unresolved external symbol "class sdds::Utils sdds::ut" (?ut@sdds@@3VUtils@1@A)
+Line.obj : error LNK2001: unresolved external symbol "class sdds::Utils sdds::ut" (?ut@sdds@@3VUtils@1@A)
+Line.obj : error LNK2019: unresolved external symbol "public: int __cdecl sdds::Utils::getint(char const *,class std::basic_istream<char,struct std::char_traits<char> > &)const " (?getint@Utils@sdds@@QEBAHPEBDAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z) referenced in function "public: virtual void __cdecl sdds::Line::getSpecs(class std::basic_istream<char,struct std::char_traits<char> > &)" (?getSpecs@Line@sdds@@UEAAXAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z)
+C:\Users\hylan\OneDrive\Documents\OOP244\OOP244-Works\W8\x64\Debug\WS08.exe : fatal error LNK1120: 3 unresolved externals

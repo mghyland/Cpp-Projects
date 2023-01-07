@@ -1,0 +1,16 @@
+/*****************************************************************************
+Full Name  : Matthew Hyland
+Student ID#: 035286046
+Email      : mhyland@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I have done all the wrting of this reflection by myself.
+*****************************************************************************/
+
+Workshop 8
+**********
+
+In this workshop we looked at virtual functions and abstract base classes, as well as interfaces and how the inheritance works between all of these. In our case, Shape was a pure virtual function, with a child of LblShape, and then Line and Rectangle were derived from LblShape. It took me a while to understand the idea of the virtual function and also how we override functions from the base class, but after debugging and running through each function, it became much easier to see and understand the flow of the program, and why and when each function is called.
+
+I did have a memory leak issue but was able to resolve it. There were only two places that memory was allocated, so I was able to narrow down my search at least, but still couldn't see the problem. I started counting the times those functions ran, and saw LblShape::getSpecs ran twice, so I focused on it since I knew I had a leak in two blocks. That when I realized that I hadn't dealt with the m_label I was given before making new memory and allocating for the correct length. Once I deleted m_label first, and then created the new memory, it worked great.
