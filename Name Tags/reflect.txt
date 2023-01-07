@@ -1,0 +1,18 @@
+/*****************************************************************************
+Full Name  : Matthew Hyland
+Student ID#: 035286046
+Email      : mhyland@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I have done all the wrting of this reflection by myself.
+*****************************************************************************/
+
+Workshop 3
+***********
+
+The main thing I learned about with both these workshops was member functions and privacy. Member functions allow us to communicate with their objects data and even change it if we need to. The functions can directly access the members of its own class, and I found this made it much more clear how to use each function, and what I would be able to achieve when doing so.
+
+The private and public labeling in the class or structure also helped to clarify what functions would be able to access what data. When thing I learned the hard way was that a class is private by default, while a structure is public by default. This casued a bit of confusion until I realized that, but I did know that I could also specify in a class or struct, which things I wanted to be private or public.
+
+Finally, the print functions were good practice for string padding, which is something that I wasn't great at. This let me try a few things and find out what didn't work, and what did what. I understood the ideas behind cout.fill and cout.width, but sometimes the order of implementation can get me confused, so this was good practice for that.
