@@ -1,0 +1,9 @@
+﻿  CC.cpp
+C:\Users\hylan\OneDrive\Documents\CPA - Semester 2\OOP244\OOP244-Works\W3-P1\CC.cpp(65,19): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+C:\Users\hylan\OneDrive\Documents\CPA - Semester 2\OOP244\OOP244-Works\W3-P1\CC.cpp(73,19): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+C:\Users\hylan\OneDrive\Documents\CPA - Semester 2\OOP244\OOP244-Works\W3-P1\CC.cpp(77,19): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+C:\Users\hylan\OneDrive\Documents\CPA - Semester 2\OOP244\OOP244-Works\W3-P1\CC.cpp(81,19): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+  main.cpp
+  Utils.cpp
+  Generating Code...
+  W3-P1.vcxproj -> C:\Users\hylan\OneDrive\Documents\CPA - Semester 2\OOP244\OOP244-Works\W3-P1\x64\Debug\W3-P1.exe
