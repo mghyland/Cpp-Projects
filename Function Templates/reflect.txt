@@ -1,0 +1,18 @@
+/*****************************************************************************
+Full Name  : Matthew Hyland
+Student ID#: 035286046
+Email      : mhyland@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I have done all the wrting of this reflection by myself.
+*****************************************************************************/
+
+Workshop 10
+***********
+
+This workshop involved creating a template, which was a first for me. It was very interesting to learn about them, and they are a very useful tool. A template is a function that we create which can take different types, like an integer or an object, and run them through the same function. 
+
+We would use this when we see ourselves writing the same logic in a function that we have already written somewhere else, just with different types. We look at the function we have written and determine how many different value types the function takes, and declare them in our template definition. Again, these could be doubles or longs or arrays. Once we've determined the types, we give them each a name in the definition, and then we go through our code and apply those names to the necessary objects in the function. When we run the function, we just have to pass the correct types in the correct order, and we can do this with any data that fits the parameters.
+
+The only issue I ran into was emptying the collection array. When we only search an array once, it seemed fine, but when we went back through Employees, there was no one with Jack in their name, but the two names previously found in a diferent search were still in the object array. I saw that the Collection::resize() function would allow me to resize the array to zero, and that it also deleted all the data in the array, so that solved the problem.
