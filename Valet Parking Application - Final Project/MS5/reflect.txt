@@ -1,0 +1,20 @@
+/*****************************************************************************
+Full Name  : Matthew Hyland
+Student ID#: 035286046
+Email      : mhyland@myseneca.ca
+Section    : NAA
+
+Milestone 5
+
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my professor 
+provided to complete my workshops and assignments.
+*****************************************************************************/
+
+This final project tested everything we have learned from the beginning of the semester, and it was very interesting to see the whole thing come together. There were a couple spots that I struggled with, one being copy and assignment. It took me while to understand that we need to ensure that we are not self copying or self assigning, because when we do it causes major issues.
+
+Loading data from the file and saving has also been a problem for me in the past. In milestone 5, I've had problems(as I write this I'm still having the problem) with saving the data to the file. I can read it fine, but I can't figure out why the file wont open to write when I run the saveData function. Hopefully I will figure it out and append the solution to this reflection.
+
+As we went further into the project, I would sometimes forget the functions we had already made, which slowed me down thinking about how to do it. I would have to go back through the modules and check to see what I had available already in order to perform the task at hand. In the future I need to remember that we will generally always be making functions that we can use again and again, and if I see something that I keep having to repeat, I should know then that there is likely a function implemented already that will do it.
+
+Overall I enjoyed building this Parking program. It gave me a much better understanding of how large projects come together and all the moving parts that make it work. This was very valuable experience that I will carry forward with me into the next semesters.

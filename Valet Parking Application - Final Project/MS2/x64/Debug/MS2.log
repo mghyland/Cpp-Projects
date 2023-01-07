@@ -1,0 +1,3 @@
+﻿  Parking.cpp
+C:\Users\hylan\OneDrive\Documents\OOP244\OOP244-Works\MS2\Parking.cpp(208,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  MS2.vcxproj -> C:\Users\hylan\OneDrive\Documents\OOP244\OOP244-Works\MS2\x64\Debug\MS2.exe
