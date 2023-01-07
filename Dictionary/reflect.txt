@@ -1,0 +1,20 @@
+/*****************************************************************************
+Full Name  : Matthew Hyland
+Student ID#: 035286046
+Email      : mhyland@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I have done all the coding/reflection by myself and only copied the code that my 
+professor provided to complete my workshops and assignments.
+*****************************************************************************/
+
+In this first workshop, I learned a few new things, and I learned that I didn't know a few things from the past quite as well as I thought I did. Starting with the new things, I learned what namespace is and how/why we use it. In order to avoid co-developers from having variables with the same name clash with each other when compiled together, we use namespace to create a scope in which we enclose our code. It can also be accessed by others by declaring its use, ex. using namespace sdds. Other new things we're smaller, like cin and cout, and how they are forms of encapsulation, by combining the data and the function that operates on it, without having to show the process of implementation.
+
+As for what I didn't know so well, that relates to the file aspect of the workshop. I initially stuggled with the loadDictionary because I had a hard time understanding the process of open, read and/or write, and close. Admittedly the first problem was that I wasn't closing the file. Once I realized that and corrected it, the read was tricky due to the layout of the text itself. I struggled with a way to scan the file and extract each part. I believe there are better ways, but I went with this:
+
+name = fscanf(dfp, "%[^\n]%*c", record->m_wordList[wordNum].m_wordName);
+fscanf(dfp, "%[^:]s", record->m_wordList[wordNum].m_wordType[i]);
+fscanf(dfp, "%*c%*c%[^\n]%*c", record->m_wordList[wordNum].m_definition[i]);
+
+This only shows the actual scan part, not the entire chunk of code. For the word I read to the newline, and then ignored the newline character. For the type I actually look with fgetc to check for the tab character, and then if I find it, scan to the colon. Finally for the definition, I ignore the first two characters, colon and space, and then scan to the newline or end of file.
