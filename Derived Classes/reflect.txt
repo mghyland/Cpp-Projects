@@ -1,0 +1,16 @@
+/*****************************************************************************
+Full Name  : Matthew Hyland
+Student ID#: 035286046
+Email      : mhyland@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I have done all the wrting of this reflection by myself.
+*****************************************************************************/
+
+Workshop 7
+**********
+
+In this workshop we focused on derived classes and hierarchies. A derived class is a kind of the class above it, so in our case the Dumper class was a kind of the VehicleBasic class. By doing this, a few new things had to happen that I didn't know, and one was the calling of the base class constructor from the derived class constructor. We place the base class constructor name in the initialization area of the derived class constructor, and pass it the values that it needs to construct its part of the object. To make this possible, we allow the derived access to the base's non-private member functions by declaring it in the derived class definition, for example class Dumper : public VehicleBasic. We can now also call functions from the VehicleBasic class inside our Dumper class fucntions, which we did for read and write.
+
+Behind all of this is the concept of inheritance. One class can inherit the entire structure of another class, and works through hierarchy. This is where the is-a-kind-of part comes from, where through hierarchy a class is a kind of its parent class. It is a transitive relationship, as each class below inherits from the class above, but not commutative, so the class above is not necessarily a kind of any of the classes below it. This did confuse me a bit, but the Linnaean hierarchy chart in our notes made it easier to understand how each class can relate to one another, or not.
